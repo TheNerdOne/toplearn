@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/toplearn/static/js/main.daa97b20.chunk.js",
-    "main.js.map": "/toplearn/static/js/main.daa97b20.chunk.js.map",
+    "main.js": "/toplearn/static/js/main.3b1b4ccc.chunk.js",
+    "main.js.map": "/toplearn/static/js/main.3b1b4ccc.chunk.js.map",
     "runtime-main.js": "/toplearn/static/js/runtime-main.23236fed.js",
     "runtime-main.js.map": "/toplearn/static/js/runtime-main.23236fed.js.map",
-    "static/js/2.f79651d1.chunk.js": "/toplearn/static/js/2.f79651d1.chunk.js",
-    "static/js/2.f79651d1.chunk.js.map": "/toplearn/static/js/2.f79651d1.chunk.js.map",
+    "static/js/2.d3588c64.chunk.js": "/toplearn/static/js/2.d3588c64.chunk.js",
+    "static/js/2.d3588c64.chunk.js.map": "/toplearn/static/js/2.d3588c64.chunk.js.map",
     "index.html": "/toplearn/index.html",
-    "static/js/2.f79651d1.chunk.js.LICENSE.txt": "/toplearn/static/js/2.f79651d1.chunk.js.LICENSE.txt"
+    "static/js/2.d3588c64.chunk.js.LICENSE.txt": "/toplearn/static/js/2.d3588c64.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.23236fed.js",
-    "static/js/2.f79651d1.chunk.js",
-    "static/js/main.daa97b20.chunk.js"
+    "static/js/2.d3588c64.chunk.js",
+    "static/js/main.3b1b4ccc.chunk.js"
   ]
 }
