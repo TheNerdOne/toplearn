@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
-import { Redirect, Route, Switch } from "react-router";
+import { Redirect, Route, HashRouter as Router } from "react-router-dom";
+import { createBrowserHistory } from "history";
+
 import { useDispatch, useSelector } from "react-redux";
 
 import Account from "../components/Account/Account";
@@ -23,6 +25,8 @@ import PrivateLayout from "../components/layouts/PrivateLayout";
 import AdminContext from "../components/context/AdminContext";
 
 const MySite = () => {
+  const history = createBrowserHistory();
+
   const courses = useSelector((state) => state.courses);
   const user = useSelector((state) => state.user);
 
@@ -44,7 +48,7 @@ const MySite = () => {
   }, []);
 
   return (
-    <Switch>
+    <Router history={history}>
       <Route path={["/dashboard"]}>
         <PrivateLayout>
           <Route
@@ -76,7 +80,7 @@ const MySite = () => {
       </Route>
       <Route path={["/"]}>
         <MainLayout>
-          <Switch>
+          <Router>
             <Route
               path="/login"
               render={() =>
@@ -110,10 +114,10 @@ const MySite = () => {
               exact
               render={() => <Courses courses={indexCourses} />}
             />
-          </Switch>
+          </Router>
         </MainLayout>
       </Route>
-    </Switch>
+    </Router>
   );
 };
 
